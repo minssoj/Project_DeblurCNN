@@ -17,7 +17,7 @@ The uniform motion blur removing algorithm of Cho et al. has the problem in that
 * PSNR (dB)
 
 |Test Image </br>(Width * Height)|Test Image|Conventional |Ours|
-|:-------------------:|:----------:|:----------:|:----------:|
+|:-------------------:|:----------------:|:----------------:|:----------------:|
 |Building </br>(924×616)|22.68|24.08|**26.05**|
 |Warehouse </br>(924×581)|22.28|23.67|**25.13**|
 |Field </br>(924×668)|30.89|31.33|**32.15**|
@@ -26,7 +26,7 @@ The uniform motion blur removing algorithm of Cho et al. has the problem in that
 * SSIM
 
 |Test Image </br>(Width * Height)|Test Image|Conventional |Ours|
-|:-------------------:|:----------:|:----------:|:----------:|
+|:-------------------:|:----------------:|:----------------:|:----------------:|
 |Building </br>(924×616)|0.68|0.77|**0.82**|
 |Warehouse </br>(924×581)|0.58|0.69|**0.74**|
 |Field </br>(924×668)|0.74|0.86|**0.87**|
@@ -36,6 +36,6 @@ The uniform motion blur removing algorithm of Cho et al. has the problem in that
 Comming Soon!
 
 ## License
-
+A large part of the code is borrowed from [A Neural Approach to Blind Motion Deblurring](https://projects.ayanc.org/ndeblur/). Thanks for providing.
 
 ## Citation
